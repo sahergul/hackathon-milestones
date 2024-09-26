@@ -1,0 +1,123 @@
+/*Styling form and resume section*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(185, 212, 212);
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: aliceblue;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(165, 42, 42, 0.1);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #5a7db6;
+    color: black;
+    padding: 20px;
+    width: 35%;
+    text-align: justify;
+    border-right: 5px solid #255a83;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    border: 2px solid rgba(14, 14, 83, 0.8);
+    margin-bottom: 10px;
+ }
+
+h1 {
+    font-size: 45px;
+    margin: 10px 20px 10px 20px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 5%;
+    margin: 20px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #1e1c7d;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+/* Right Section Styling */
+form {
+    margin: auto;
+    width: 90%;
+    background-color: rgb(228, 242, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(165, 42, 42, 0.1);
+    padding: 20px;
+    max-width: 600%;
+}
+
+fieldset {
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    margin: 5px;
+    color: rgb(34, 29, 29);
+}
+
+input, textarea {
+    margin-top: 2px;
+    margin-bottom:2px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: skyblue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #23928d;
+}
+
+#resume-display {
+    max-width: 900px;
+    width: calc(100% -20px);
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 0 2px rgba(165, 42, 42, 0.1);
+}

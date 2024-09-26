@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='resume-container'>
+        <!-- Left section -->
+        <div class="left-section">
+            <h3>Profile Picture</h3>
+            <input type="file" id='profile-picture' name="profile-picture" accept="image/*" required>
+            <section id='objective'>
+                <h3 style="color: rgb(5, 5, 46);">Career Objective</h3>
+                <p style="text-align: justify; hyphens: auto;">Seeking a challenging position in an organization where I can use my talents and skills to grow and expand an organization as well as myself.</p>
+            </section>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <h1><b>Dynamic Resume Builder</b></h1>
+            <form id='resume-form'>
+                <fieldset>
+                    <legend>Personal Information:</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id='name' required>
+
+                    <label for="phone">Contact:</label>
+                    <input type="text" id='phone' required>
+
+                    <label for="email">Email:</label>
+                    <input type="text" id='email' required>
+
+                    <label for="address">Address:</label>
+                    <textarea id='address' rows="2" required></textarea>
+                </fieldset>
+
+                <!-- Education -->
+                <fieldset>
+                    <legend>Education:</legend>
+                    <textarea id='education' rows="4" required></textarea>
+                </fieldset>
+
+                <!-- Skills -->
+                <fieldset>
+                    <legend>Skills:</legend>
+                    <textarea id='skills' rows="4" required></textarea>
+                </fieldset>
+
+                <!-- Experience -->
+                <fieldset>
+                    <legend>Experience:</legend>
+                    <textarea id='experience' rows="4" required></textarea>
+                </fieldset>
+
+                <!-- Button to Generate Resume -->
+                <button type="submit"><b>Generate Resume</b></button>
+            </form>
+            <br>
+
+            <!-- Dynamic Resume -->
+            <div id="resume-display">
+                <!-- Resume will be generated below -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
