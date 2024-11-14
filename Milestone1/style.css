@@ -32,9 +32,10 @@ body{
     margin-top: 15%;
     margin-left: 10%;
     margin-right: 10%;
-    border-radius: 20;
+    margin-bottom: 10%
+    border-radius: 50%;
     border: 5px solid #070732(200, 50%, 55%);
-    margin-bottom: 10%;
+    
 }
 
 h1 {
